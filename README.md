@@ -5,7 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **GC-Benchmark** is a rigorous, reproducible benchmark comparing **15 ML models** across forward prediction and inverse design tasks for silicon photonic grating couplers, evaluated on **five physically distinct 50 k-sample datasets**. The repository also ships the dataset generator, four ablation variants, FEM validation tools, and a 10-test statistical validation suite.
-
+![ARTEMIS Architecture](Assets/ablation_radar.png)
+![ARTEMIS Architecture](Assets/ablation_loss_curves.png)
+![ARTEMIS Architecture](Assets/ablation_scatter_compare.png)
 ---
 
 ## Table of Contents
