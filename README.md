@@ -1,10 +1,9 @@
-# GC-Benchmark: A Comprehensive Machine Learning Benchmark for Photonic Grating Coupler Design
+# Physics_Learnability_Tradeoff
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch 2.1+](https://img.shields.io/badge/PyTorch-2.1+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **GC-Benchmark** is a rigorous, reproducible benchmark comparing **15 ML models** across forward prediction and inverse design tasks for silicon photonic grating couplers, evaluated on **five physically distinct 50 k-sample datasets**. The repository also ships the dataset generator, four ablation variants, FEM validation tools, and a 10-test statistical validation suite.
 ![ARTEMIS Architecture](Assets/fig2_forward_spectrum_bars.png)
 ![ARTEMIS Architecture](Assets/fig3_physics_consistency_heatmap.png)
 ![ARTEMIS Architecture](Assets/fig7_overview_panel.png)
