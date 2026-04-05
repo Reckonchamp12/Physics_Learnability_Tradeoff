@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
+scikit-learn>=1.3
+h5py>=3.9
+
+# Gradient boosting
+xgboost>=2.0
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16   # optional — not directly used but commonly co-installed
+
+# Optional (significantly improve specific models)
+dtaidistance>=2.3   # DTW distance metric; falls back to Euclidean if absent
+torchdiffeq>=0.2    # Neural ODE solver; falls back to Euler if absent
+
+# Utilities
+tabulate>=0.9       # pretty-print results tables
+tqdm>=4.66          # progress bars
