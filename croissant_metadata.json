@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "croissant": "https://mlcommons.org/croissant/"
+  },
+  "@type": "Dataset",
+  "name": "GC-500K Dataset",
+  "description": "A hierarchical HDF5 dataset of 500,000 grating coupler designs for silicon photonics. Each sample contains five geometric parameters (period, fill factor, etch depth, oxide thickness, silicon thickness), 100-point reflectance, transmittance, and absorbance spectra (1200–1600 nm), derived scalar optical metrics, and energy conservation flags. Generated via a validated analytical model and rigorously validated for statistical independence, physical consistency, and spectral smoothness. Includes a benchmarking study of 23 models across forward scalar/spectrum and inverse scalar/spectrum tasks.",
+  "url": "https://doi.org/10.5281/zenodo.19824650",
+  "version": "1.0",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "gc_500k_20251213_152525.h5",
+      "contentUrl": "https://zenodo.org/records/19824650?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZkMzYxMzc0LTcxYzctNDg5My04N2VkLWNmOTU0OWVlMGNkMSIsImRhdGEiOnt9LCJyYW5kb20iOiJhNmE3NDMxOGUxYzA4MGJmOGJkYzIxYzlmNzk0NTlmMiJ9.3MgFDQb93EUa5kYTaiY3WQLaGgWPgcH9v7WLDvjlwJlBGdbj5IHE1LGd51a4oRqjdVdAnF5GAj0-ZUn4HIjwUA",
+      "encodingFormat": "application/x-hdf5",
+      "contentSize": "552.8 MB"
+    }
+  ],
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "GC-500K Dataset",
+    "author": [
+      { "@type": "Person", "name": "Anonymous Authors" }
+    ],
+    "datePublished": "2026-04-27"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "datePublished": "2026-04-27",
+  "dateCreated": "2025-12-13",
+  "creator": [
+    { "@type": "Person", "name": "Anonymous Authors" }
+  ],
+  "keywords": [
+    "grating couplers",
+    "silicon photonics",
+    "dataset",
+    "benchmark",
+    "inverse design",
+    "physics-consistent"
+  ],
+  "inLanguage": "en",
+  "size": "500000 samples",
+  "measurementTechnique": "analytical simulation",
+  "variableMeasured": [
+    "reflectance",
+    "transmittance",
+    "absorbance",
+    "geometric parameters"
+  ],
+  "temporalCoverage": "2025-12-13",
+  "spatialCoverage": "synthetic (no spatial coverage)",
+  "rai": {
+    "collection": "The dataset was generated synthetically via an analytical model with uniform random sampling of geometric parameters. No human subjects or real-world data were used.",
+    "ethical_biases": "The dataset is purely synthetic and quantitative; there are no harmful social or ethical biases identifiable.",
+    "limitations": "Generated using a simplified analytical model (scalar effective indices, approximate dispersion). Does not capture full vector-field effects or polarization coupling. Intended for benchmarking, not as a calibrated physical surrogate."
+  }
+}
